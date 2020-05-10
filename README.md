@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # wgetdcportfolio
 
 ## Project setup
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Portfolio
+My personal project portfolio
+>>>>>>> b7689017a40d1ddfcec4b3928cbc81b43835035e
