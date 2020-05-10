@@ -44,8 +44,9 @@ a{
 }
 
 nav{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 hr{

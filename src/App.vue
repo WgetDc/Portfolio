@@ -1,16 +1,19 @@
 <template>
   <main>
     <px-header/>
+    <px-body/>
   </main>
 </template>
 
 <script>
 import PxHeader from "@/components/PxHeader";
+import PxBody from "@/components/PxBody";
 
 export default {
   name: "App",
   components: {
-    PxHeader    
+    PxHeader,
+    PxBody 
   }
 };
 </script>
