@@ -1,37 +1,25 @@
 <template>
-    <div class="flex-container">
-        <div class="tarjeta">
-            <div>
-                <img src="https://pbs.twimg.com/media/C9DICr-XYAAcdTO.jpg" alt="">
-                <h2>Titulo</h2>
-                <h3>Subtitulo</h3>
+    <div>
+        <div class="px-2">
+            <div class="flex -mx-2">
+                <div class="w-1/3 px-2">
+                    <div class="bg-gray-400 h-12">1</div>
+                </div>
+                <div class="w-1/3 px-2">
+                    <div class="bg-gray-500 h-12">2</div>
+                </div>
+                <div class="w-1/3 px-2">
+                    <div class="bg-gray-400 h-12">3</div>
+                </div>
             </div>
-        </div>
-        <div class="tarjeta">2</div>
-        <div class="tarjeta">3</div>
-    </div>    
+            </div>
+    </div>
 </template>
 
 <style scoped>
 *{
-    color: #ffffff;
+    color: white;
     
-}
-
-.tarjeta{
-    border: 0px solid #ffffff;
-    margin: 30px;
-    background: #19222f;
-}
-
-.tarjeta img{
-    width: 450px;
-    border-radius: 6px;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 
